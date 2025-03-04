@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reserve your table at Soul Fine Dine, Hyderabad's premier European fine dining restaurant. Book online for lunch or dinner and experience exceptional cuisine.">
+    <title>Reservations | Soul Fine Dine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Soul Fine Dine</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservations.html" class="active">Reservations</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner reservation-banner">
+        <div class="banner-content">
+            <h2>Reserve Your Table</h2>
+            <div class="divider"><span></span></div>
+            <p>Secure your culinary journey at Soul Fine Dine</p>
+        </div>
+    </section>
+
+    <!-- Reservation Introduction -->
+    <section class="reservation-intro">
+        <div class="container">
+            <div class="reservation-intro-content">
+                <p>At Soul Fine Dine, we believe that exceptional dining experiences begin with thoughtful planning. Our reservation system ensures that we can provide you with the attentive service and culinary excellence that define our restaurant.</p>
+                <p>Whether you're planning an intimate dinner for two, a family celebration, or a business gathering, we look forward to welcoming you to Soul Fine Dine.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Form Section -->
+    <section class="reservation-form-section">
+        <div class="container">
+            <div class="reservation-grid">
+                <div class="reservation-form-container">
+                    <div class="section-header">
+                        <h2>Book Your Table</h2>
+                        <div class="divider"><span></span></div>
+                    </div>
+                    <form id="reservation-form" class="reservation-form">
+                        <div class="form-group">
+                            <label for="name">Full Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date <span class="required">*</span></label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time <span class="required">*</span></label>
+                                <select id="time" name="time" required>
+                                    <option value="" disabled selected>Select a time</option>
+                                    <optgroup label="Lunch">
+                                        <option value="12:00">12:00 PM</option>
+                                        <option value="12:30">12:30 PM</option>
+                                        <option value="13:00">1:00 PM</option>
+                                        <option value="13:30">1:30 PM</option>
+                                        <option value="14:00">2:00 PM</option>
+                                        <option value="14:30">2:30 PM</option>
+                                    </optgroup>
+                                    <optgroup label="Dinner">
+                                        <option value="19:00">7:00 PM</option>
+                                        <option value="19:30">7:30 PM</option>
+                                        <option value="20:00">8:00 PM</option>
+                                        <option value="20:30">8:30 PM</option>
+                                        <option value="21:00">9:00 PM</option>
+                                        <option value="21:30">9:30 PM</option>
+                                        <option value="22:00">10:00 PM</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="guests">Number of Guests <span class="required">*</span></label>
+                                <select id="guests" name="guests" required>
+                                    <option value="" disabled selected>Select number</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5">5 People</option>
+                                    <option value="6">6 People</option>
+                                    <option value="7">7 People</option>
+                                    <option value="8">8 People</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="occasion">Occasion</label>
+                                <select id="occasion" name="occasion">
+                                    <option value="" selected>Select (optional)</option>
+                                    <option value="birthday">Birthday</option>
+                                    <option value="anniversary">Anniversary</option>
+                                    <option value="business">Business Dinner</option>
+                                    <option value="date">Date Night</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="special-requests">Special Requests</label>
+                            <textarea id="special-requests" name="special-requests" rows="4" placeholder="Please let us know about any dietary restrictions, allergies, or special requests."></textarea>
+                        </div>
+                        <div class="form-group form-checkbox">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to the <a href="#" class="terms-link">reservation policy</a> <span class="required">*</span></label>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Confirm Reservation</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="reservation-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Hours of Operation</h3>
+                        <p><strong>Lunch:</strong> 12:00 PM - 3:00 PM</p>
+                        <p><strong>Dinner:</strong> 7:00 PM - 11:00 PM</p>
+                        <p><strong>Days:</strong> Monday - Sunday</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Contact Information</h3>
+                        <p><strong>Phone:</strong> +91 40 1234 5678</p>
+                        <p><strong>Email:</strong> reservations@soulfinedine.com</p>
+                        <p>For parties of 9 or more, please contact us directly.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Private Dining</h3>
+                        <p>Soul Fine Dine offers elegant private dining spaces for special occasions and corporate events.</p>
+                        <p>Please contact us directly to inquire about availability and options.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Policy Section -->
+    <section class="reservation-policy">
+        <div class="container">
+            <div class="section-header">
+                <h2>Reservation Policy</h2>
+                <div class="divider"><span></span></div>
+            </div>
+            <div class="policy-grid">
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Confirmation</h3>
+                    <p>All reservations will receive a confirmation email. Please check your spam folder if you do not receive it within 15 minutes of booking.</p>
+                </div>
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Arrival Time</h3>
+                    <p>We kindly ask that you arrive on time for your reservation. Tables will be held for 15 minutes past the reservation time, after which they may be released.</p>
+                </div>
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                    <h3>Cancellation</h3>
+                    <p>If you need to cancel or modify your reservation, please do so at least 24 hours in advance. Late cancellations or no-shows may incur a fee.</p>
+                </div>
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Large Parties</h3>
+                    <p>For groups of 9 or more, please contact us directly. A deposit may be required for large party reservations.</p>
+                </div>
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Special Events</h3>
+                    <p>For special events and holidays, a credit card is required to secure your reservation. Cancellation policies may vary for these occasions.</p>
+                </div>
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Children</h3>
+                    <p>Children are welcome at Soul Fine Dine. Please inform us if you will need high chairs or special accommodations for young guests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <div class="divider"><span></span></div>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there a dress code?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We suggest smart casual attire. While we do not have a strict dress code, we kindly request that guests refrain from wearing athletic wear, beachwear, or flip-flops.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you accommodate dietary restrictions?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we are happy to accommodate dietary restrictions and allergies. Please inform us of any special dietary needs when making your reservation or in the special requests section of the reservation form.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there a corkage fee?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We allow guests to bring their own wine with a corkage fee of ₹1,500 per bottle. Please note that we have an extensive wine list curated by our sommelier to complement our menu.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer valet parking?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, complimentary valet parking is available for all our guests. Alternatively, there is public parking available within walking distance of the restaurant.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I make a reservation for the Chef's Table?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The Chef's Table is available by special reservation only and offers a unique multi-course tasting menu. Please contact us directly to inquire about availability and pricing.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there a time limit for dining?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We typically allocate 2 hours for parties of 2-4 and 2.5 hours for larger parties. If you anticipate needing more time, please let us know when making your reservation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Soul Fine Dine</h2>
+                    <p>Culinary Artistry Redefined</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h3>Hours</h3>
+                    <p>Lunch: 12:00 PM - 3:00 PM</p>
+                    <p>Dinner: 7:00 PM - 11:00 PM</p>
+                    <p>Monday - Sunday</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Gourmet Avenue, Jubilee Hills, Hyderabad</p>
+                    <p><i class="fas fa-phone"></i> +91 40 1234 5678</p>
+                    <p><i class="fas fa-envelope"></i> info@soulfinedine.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="TripAdvisor"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Soul Fine Dine. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <button class="chat-toggle">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>Live Chat</h3>
+                <button class="chat-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-body">
+                <div class="chat-message system">
+                    <p>Welcome to Soul Fine Dine. How may we assist you today?</p>
+                </div>
+                <!-- Chat messages will appear here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

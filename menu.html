@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore SOUL's exquisite menu featuring innovative French cuisine, avant-garde meat dishes, artisanal pasta, fresh seafood, and decadent desserts.">
+    <title>Menu | SOUL - A French Fine Dine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>SOUL</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner menu-banner" style="background-image: url('images/menu-banner.jpg');">
+        <div class="banner-content">
+            <h2>Our Menu</h2>
+            <div class="divider"><span></span></div>
+            <p>A culinary journey through innovative French gastronomy</p>
+        </div>
+    </section>
+
+    <!-- Menu Navigation -->
+    <section class="menu-navigation">
+        <div class="container">
+            <div class="menu-nav-container">
+                <ul class="menu-nav">
+                    <li><a href="#starters" class="menu-nav-link active">Starters</a></li>
+                    <li><a href="#meat" class="menu-nav-link">Avant-Garde Meat</a></li>
+                    <li><a href="#pasta" class="menu-nav-link">Pasta Creations</a></li>
+                    <li><a href="#fish" class="menu-nav-link">Fish Specialties</a></li>
+                    <li><a href="#desserts" class="menu-nav-link">Desserts</a></li>
+                    <li><a href="#beverages" class="menu-nav-link">Beverages</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Introduction -->
+    <section class="menu-intro">
+        <div class="container">
+            <div class="menu-intro-content">
+                <p>At SOUL, our menu is a celebration of French culinary traditions reimagined through a contemporary lens. Each dish is meticulously crafted using the finest seasonal ingredients, with a focus on innovative techniques and harmonious flavor combinations.</p>
+                <p>Our Executive Chef Arjun Kapoor and his talented team draw inspiration from classical French gastronomy while incorporating modern approaches to create a dining experience that is both familiar and surprising.</p>
+                <p class="menu-note"><i class="fas fa-leaf"></i> Vegetarian options available upon request. Please inform your server of any dietary restrictions or allergies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Starters Section -->
+    <section id="starters" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Starters</h2>
+                <div class="divider"><span></span></div>
+                <p>Begin your culinary journey with our exquisite appetizers</p>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/foie-gras.jpg" alt="Seared Foie Gras">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Seared Foie Gras</h3>
+                            <span class="menu-item-price">₹1,200</span>
+                        </div>
+                        <p class="menu-item-description">Seared foie gras with caramelized figs, toasted brioche, and a port wine reduction. A luxurious beginning to your dining experience.</p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag">Signature</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/scallops.jpg" alt="Pan-Seared Scallops">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Pan-Seared Scallops</h3>
+                            <span class="menu-item-price">₹950</span>
+                        </div>
+                        <p class="menu-item-description">Delicate scallops seared to perfection, served with cauliflower purée, crispy pancetta, and a brown butter emulsion.</p>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/beetroot-carpaccio.jpg" alt="Beetroot Carpaccio">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Beetroot Carpaccio</h3>
+                            <span class="menu-item-price">₹750</span>
+                        </div>
+                        <p class="menu-item-description">Thinly sliced heirloom beetroots marinated in aged balsamic vinegar, topped with goat cheese mousse, toasted walnuts, and micro greens.</p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag">Vegetarian</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/truffle-soup.jpg" alt="Truffle Velouté">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Truffle Velouté</h3>
+                            <span class="menu-item-price">₹850</span>
+                        </div>
+                        <p class="menu-item-description">Silky wild mushroom soup infused with black truffle, garnished with truffle oil and chive crème fraîche.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avant-Garde Meat Section -->
+    <section id="meat" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Avant-Garde Meat</h2>
+                <div class="divider"><span></span></div>
+                <p>Innovative preparations showcasing the finest quality meats</p>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/sous-vide-lamb.jpg" alt="Sous-vide Lamb">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Sous-vide Lamb</h3>
+                            <span class="menu-item-price">₹1,800</span>
+                        </div>
+                        <p class="menu-item-description">Sous-vide lamb with truffle-infused jus and roasted heirloom vegetables. The lamb is cooked for 12 hours to achieve perfect tenderness.</p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag">Signature</span>
+                            <span class="menu-tag">Chef's Favorite</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/wagyu-beef.jpg" alt="Wagyu Beef Rossini">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Wagyu Beef Rossini</h3>
+                            <span class="menu-item-price">₹2,400</span>
+                        </div>
+                        <p class="menu-item-description">A5 Wagyu beef tenderloin topped with seared foie gras, served on a truffle-infused potato purée with Madeira sauce.</p>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/duck-breast.jpg" alt="Duck Breast à l'Orange">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Duck Breast à l'Orange</h3>
+                            <span class="menu-item-price">₹1,650</span>
+                        </div>
+                        <p class="menu-item-description">Pan-seared duck breast with a modern interpretation of the classic orange sauce, accompanied by caramelized endives and duck fat potatoes.</p>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/veal-sweetbreads.jpg" alt="Veal Sweetbreads">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Veal Sweetbreads</h3>
+                            <span class="menu-item-price">₹1,750</span>
+                        </div>
+                        <p class="menu-item-description">Crispy veal sweetbreads with Jerusalem artichoke purée, morel mushrooms, and a veal jus reduction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pasta Creations Section -->
+    <section id="pasta" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Pasta Creations</h2>
+                <div class="divider"><span></span></div>
+                <p>Handcrafted pasta dishes that celebrate Italian tradition with a contemporary twist</p>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/saffron-tagliatelle.jpg" alt="Saffron Tagliatelle">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Saffron Tagliatelle</h3>
+                            <span class="menu-item-price">₹1,600</span>
+                        </div>
+                        <p class="menu-item-description">Handmade saffron tagliatelle with lobster and citrus zest. The pasta is infused with premium saffron and paired with succulent lobster meat.</p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag">Signature</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/truffle-risotto.jpg" alt="Black Truffle Risotto">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Black Truffle Risotto</h3>
+                            <span class="menu-item-price">₹1,450</span>
+                        </div>
+                        <p class="menu-item-description">Carnaroli rice cooked to creamy perfection with black truffle, aged Parmesan, and a touch of white wine.</p>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/ravioli.jpg" alt="Wild Mushroom Ravioli">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Wild Mushroom Ravioli</h3>
+                            <span class="menu-item-price">₹1,350</span>
+                        </div>
+                        <p class="menu-item-description">Delicate pasta pillows filled with wild mushroom duxelles, served with a sage brown butter sauce and shaved Pecorino Romano.</p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag">Vegetarian</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/gnocchi.jpg" alt="Truffle Gnocchi">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Truffle Gnocchi</h3>
+                            <span class="menu-item-price">₹1,250</span>
+                        </div>
+                        <p class="menu-item-description">Pillowy potato gnocchi tossed in a creamy truffle sauce with crispy pancetta, peas, and Parmesan crisps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fish Specialties Section -->
+    <section id="fish" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Fish Specialties</h2>
+                <div class="divider"><span></span></div>
+                <p>Exquisite seafood dishes showcasing the freshest catches</p>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/sea-bass.jpg" alt="Pan-seared Sea Bass">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Pan-seared Sea Bass</h3>
+                            <span class="menu-item-price">₹1,700</span>
+                        </div>
+                        <p class="menu-item-description">Pan-seared sea bass with a fennel and orange salad, served with saffron-infused potato purée and a champagne beurre blanc.</p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag">Signature</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/butter-poached-lobster.jpg" alt="Butter-poached Lobster">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Butter-poached Lobster</h3>
+                            <span class="menu-item-price">₹2,200</span>
+                        </div>
+                        <p class="menu-item-description">Butter-poached lobster tail with vanilla-scented parsnip purée, glazed baby vegetables, and a lobster bisque reduction.</p>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/scallops-main.jpg" alt="Seared Scallops">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Seared Scallops</h3>
+                            <span class="menu-item-price">₹1,550</span>
+                        </div>
+                        <p class="menu-item-description">Perfectly seared scallops with pea purée, crispy pancetta, pea shoots, and a lemon beurre blanc.</p>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/turbot.jpg" alt="Roasted Turbot">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Roasted Turbot</h3>
+                            <span class="menu-item-price">₹1,850</span>
+                        </div>
+                        <p class="menu-item-description">Roasted turbot fillet with artichoke barigoule, confit cherry tomatoes, and a saffron-infused fish velouté.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Desserts Section -->
+    <section id="desserts" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Desserts</h2>
+                <div class="divider"><span></span></div>
+                <p>Indulgent sweet creations to conclude your dining experience</p>
+            </div>
+            <div class="menu-items">
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/tiramisu.jpg" alt="Deconstructed Tiramisu">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Deconstructed Tiramisu</h3>
+                            <span class="menu-item-price">₹750</span>
+                        </div>
+                        <p class="menu-item-description">Deconstructed tiramisu with espresso gelée and mascarpone mousse, accompanied by coffee soil and chocolate tuiles.</p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag">Signature</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/chocolate-souffle.jpg" alt="Chocolate Soufflé">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Chocolate Soufflé</h3>
+                            <span class="menu-item-price">₹800</span>
+                        </div>
+                        <p class="menu-item-description">Warm chocolate soufflé with a molten center, served with vanilla bean ice cream and salted caramel sauce. Please allow 20 minutes for preparation.</p>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/panna-cotta.jpg" alt="Vanilla Bean Panna Cotta">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Vanilla Bean Panna Cotta</h3>
+                            <span class="menu-item-price">₹650</span>
+                        </div>
+                        <p class="menu-item-description">Silky vanilla bean panna cotta with berry compote, fresh seasonal fruits, and a delicate almond tuile.</p>
+                    </div>
+                </div>
+                <div class="menu-item-card">
+                    <div class="menu-item-image">
+                        <img src="images/creme-brulee.jpg" alt="Lavender Crème Brûlée">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-header">
+                            <h3>Lavender Crème Brûlée</h3>
+                            <span class="menu-item-price">₹700</span>
+                        </div>
+                        <p class="menu-item-description">Classic crème brûlée infused with lavender, topped with a perfectly caramelized sugar crust and served with shortbread cookies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beverages Section -->
+    <section id="beverages" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beverages</h2>
+                <div class="divider"><span></span></div>
+                <p>Carefully selected drinks to complement your meal</p>
+            </div>
+            <div class="menu-items beverage-items">
+                <div class="beverage-category">
+                    <h3>Wine Selection</h3>
+                    <p class="beverage-note">Our sommelier has curated an extensive wine list featuring exceptional vintages from renowned vineyards across Europe. Please ask your server for our complete wine list and pairing recommendations.</p>
+                    <div class="beverage-item">
+                        <div class="beverage-name">House Red Wine</div>
+                        <div class="beverage-price">₹800 / glass</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">House White Wine</div>
+                        <div class="beverage-price">₹800 / glass</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Premium Champagne</div>
+                        <div class="beverage-price">₹1,800 / glass</div>
+                    </div>
+                </div>
+                <div class="beverage-category">
+                    <h3>Signature Cocktails</h3>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Golden Soul</div>
+                        <div class="beverage-price">₹950</div>
+                        <div class="beverage-description">Premium vodka, passion fruit, vanilla, and a hint of gold leaf</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Mediterranean Breeze</div>
+                        <div class="beverage-price">₹850</div>
+                        <div class="beverage-description">Gin, rosemary, cucumber, and Mediterranean tonic</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Smoky Affair</div>
+                        <div class="beverage-price">₹950</div>
+                        <div class="beverage-description">Smoked whiskey, orange bitters, and maple syrup</div>
+                    </div>
+                </div>
+                <div class="beverage-category">
+                    <h3>Non-Alcoholic Options</h3>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Cucumber Mint Refresher</div>
+                        <div class="beverage-price">₹450</div>
+                        <div class="beverage-description">Fresh cucumber, mint, lime, and sparkling water</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Berry Bliss</div>
+                        <div class="beverage-price">₹500</div>
+                        <div class="beverage-description">Mixed berries, basil, and elderflower cordial</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Artisanal Coffee Selection</div>
+                        <div class="beverage-price">₹350</div>
+                        <div class="beverage-description">Espresso, Cappuccino, Latte, or French Press</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef's Tasting Menu -->
+    <section class="tasting-menu">
+        <div class="container">
+            <div class="tasting-menu-content">
+                <div class="section-header">
+                    <h2>Chef's Tasting Menu</h2>
+                    <div class="divider"><span></span></div>
+                    <p>A curated multi-course journey through our chef's signature creations</p>
+                </div>
+                <div class="tasting-menu-details">
+                    <div class="tasting-menu-option">
+                        <h3>Six-Course Experience</h3>
+                        <p class="tasting-menu-price">₹4,500 per person</p>
+                        <p class="tasting-menu-description">A carefully orchestrated progression of flavors featuring our chef's selection of seasonal specialties.</p>
+                    </div>
+                    <div class="tasting-menu-option">
+                        <h3>Eight-Course Grand Experience</h3>
+                        <p class="tasting-menu-price">₹6,500 per person</p>
+                        <p class="tasting-menu-description">Our most comprehensive tasting menu, showcasing the full breadth of our culinary artistry.</p>
+                    </div>
+                    <p class="tasting-menu-note">Wine pairing available for an additional ₹3,000 (Six-Course) or ₹4,000 (Eight-Course).</p>
+                    <p class="tasting-menu-note">The Chef's Tasting Menu requires participation from the entire table and is available until 9:30 PM.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation CTA Section -->
+    <section class="reservation-cta" style="background-image: url('images/IMG_0050.jpg');">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Reserve Your Culinary Journey</h2>
+                <p>Indulge in an unforgettable dining experience at SOUL</p>
+                <a href="reservations.html" class="btn btn-primary">Book Your Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>SOUL</h2>
+                    <p>A French Fine Dine</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h3>Hours</h3>
+                    <p>Lunch: 12:00 PM - 3:00 PM</p>
+                    <p>Dinner: 7:00 PM - 11:00 PM</p>
+                    <p>Monday - Sunday</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Gourmet Avenue, Jubilee Hills, Hyderabad</p>
+                    <p><i class="fas fa-phone"></i> +91 40 1234 5678</p>
+                    <p><i class="fas fa-envelope"></i> info@soul-restaurant.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="TripAdvisor"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SOUL. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <button class="chat-toggle">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>Live Chat</h3>
+                <button class="chat-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-body">
+                <div class="chat-message system">
+                    <p>Welcome to SOUL. How may we assist you today?</p>
+                </div>
+                <!-- Chat messages will appear here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
