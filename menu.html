@@ -16,7 +16,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1>SOUL</h1>
+                <a href="index.html"><img src="images/logo.png" alt="SOUL Logo" class="logo-img"></a>
             </div>
             <nav>
                 <ul class="nav-links">
@@ -25,7 +25,6 @@
                     <li><a href="menu.html" class="active">Menu</a></li>
                     <li><a href="reservations.html">Reservations</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <div class="hamburger">
@@ -38,7 +37,11 @@
     </header>
 
     <!-- Page Banner -->
-    <section class="page-banner menu-banner" style="background-image: url('images/menu-banner.jpg');">
+    <section class="page-banner menu-banner">
+        <video autoplay muted loop id="menu-background-video">
+            <source src="images/background2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <div class="banner-content">
             <h2>Our Menu</h2>
             <div class="divider"><span></span></div>
@@ -51,12 +54,11 @@
         <div class="container">
             <div class="menu-nav-container">
                 <ul class="menu-nav">
-                    <li><a href="#starters" class="menu-nav-link active">Starters</a></li>
-                    <li><a href="#meat" class="menu-nav-link">Avant-Garde Meat</a></li>
-                    <li><a href="#pasta" class="menu-nav-link">Pasta Creations</a></li>
-                    <li><a href="#fish" class="menu-nav-link">Fish Specialties</a></li>
+                    <li><a href="#Appetizers" class="menu-nav-link active">Appetizers</a></li>
+                    <li><a href="#Soups" class="menu-nav-link">Soups</a></li>
+                    <li><a href="#Mains" class="menu-nav-link">Mains</a></li>
                     <li><a href="#desserts" class="menu-nav-link">Desserts</a></li>
-                    <li><a href="#beverages" class="menu-nav-link">Beverages</a></li>
+                    <li><a href="#Salads" class="menu-nav-link">Salads</a></li>
                 </ul>
             </div>
         </div>
@@ -73,263 +75,422 @@
         </div>
     </section>
 
-    <!-- Starters Section -->
-    <section id="starters" class="menu-section">
+    <!-- Appetizers Section -->
+    <section id="Appetizers" class="menu-section">
         <div class="container">
             <div class="section-header">
-                <h2>Starters</h2>
+                <h2>Appetizers</h2>
                 <div class="divider"><span></span></div>
-                <p>Begin your culinary journey with our exquisite appetizers</p>
+                <p>French & Global Classics + Soul Curations</p>
             </div>
-            <div class="menu-items">
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/foie-gras.jpg" alt="Seared Foie Gras">
+            <div class="menu-container">
+                <div class="menu-items beverage-items">
+                <div class="beverage-category">
+                    <h3>Appetizers Selection</h3>
+                    <p class="beverage-note">Our chefs have carefully curated a selection of exquisite appetizers, blending classic European flavors with modern culinary artistry. Each dish is crafted to offer a harmonious balance of taste and texture, perfect to awaken your palate before the main course. Whether you prefer light, crisp bites or rich, indulgent starters, our menu features an array of handcrafted delicacies to suit every preference.</p>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Quiche</div>
+                        <div class="beverage-price">Quiche de Legumes (Veg) @ ₹475</div>
+                        <div class="beverage-price">Quiche de Poulet (Chicken) @ ₹525</div>
+                        <div class="beverage-price">Quiche de Lorraine (original recipe with Bacon) @ ₹575</div>
+                        <div class="beverage-description">A classical French pie with soft buttery dough, baked with cream of Mascarpone.<br>
+                            Originated from Lorraine, France, primary featuring Bacon; offered at Soul with Chicken, Bacon and Vegetables.</div>
                     </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Seared Foie Gras</h3>
-                            <span class="menu-item-price">₹1,200</span>
-                        </div>
-                        <p class="menu-item-description">Seared foie gras with caramelized figs, toasted brioche, and a port wine reduction. A luxurious beginning to your dining experience.</p>
-                        <div class="menu-item-tags">
-                            <span class="menu-tag">Signature</span>
-                        </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Cheese Platter</div>
+                        <div class="beverage-price">Cost dependent on choice of Cheese</div>
+                        <div class="beverage-description">Platter of tasting sized portions of a variety of Cheese<br>
+                            Options include: Brie, Camembert, Danish Blue, Grana Padano, Cheddar,Gorgonzola
                     </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Croquettes</div>
+                        <div class="beverage-price">[2 Croquettes make a standard single serving as part of IV/V-course meal]<br>
+                            Potato / Mix Veg / Zucchini / Bell-Peppers/ Mushroom: 2 @ ₹525 | 4 @ ₹750<br>
+                            Chicken / Beef: 2 @ ₹575 | 4 @ ₹775<br>
+                            Prawns / Crab / Pork / Bacon: 2 @ ₹575 | 4 @ ₹850<br>
+                            Premium Factor/s: Cheese & Whiskey</div>
+                            <div class="beverage-description">Another French classic, stuffed with
+                                Cheese, and choice of filling to pair with
+                                Cheese; served with Fresh Pepper-Whiskey
+                                sauce.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Tart – Veg & Cheese</div>
+                        <div class="beverage-price">@ ₹475</div>
+                        <div class="beverage-description">A tart of veggies & cheese (blend of
+                            mascarpone & goat cheese)</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Flan de Couregettes</div>
+                        <div class="beverage-price">@ ₹550</div>
+                        <div class="beverage-description">A French classic featuring Zucchinis, baked with cream & cheese</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Crispy Chicken/ Prawns in Cream of Jalapeno</div>
+                        <div class="beverage-price">[5 Sticks make a standard single serving as
+                            part of IV/V-course meal]<br>
+                            Crispy Chicken: ₹500<br>
+                            Crispy Prawns: ₹650</div>
+                        <div class="beverage-description">A Soul-curation of Tangy Jalapeno
+                            Cream to complement Crispy Chicken /
+                            Prawns</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Exotic Giant Scallops</div>
+                        <div class="beverage-price">(standard serving of 2 units: ~ 120 grams)
+                            @ ₹1600</div>
+                        <div class="beverage-description">Sourced from California, char-cooked
+                            to perfection on pan in butter.<br>
+                            Paired best with sauces like: Lemon
+                            Garlic, Red Pepper (Cacciatore), </div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Exotic Lobster</div>
+                        <div class="beverage-price">(standard serving of a unit: ~ 350 grams with shell)
+                            @ ₹1600</div>
+                        <div class="beverage-description">Sourced from the seas, baked to perfection, with Cheese as an
+                            option<br>
+                            Served with sauces like: Lemon Garlic, Red Pepper sauce
+                            (Cacciatore), Hollandaise</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Squid Rings</div>
+                        <div class="beverage-price">@ ₹600</div>
+                        <div class="beverage-description">Squid fried in Panco, served with
+                            fresh tomato or jalapeno dip.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Pork Ribs / Belly Fat - BBQ</div>
+                        <div class="beverage-price">@ ₹850</div>
+                        <div class="beverage-description">All-time favorite meat, tossed in
+                            fresh BBQ sauce: jaggery, honey &
+                            citric sauces</div>
+                    </div>
+                    <div class="beverage-item">Lamb / Beef Ribs</div>
+                    <div class="beverage-price">Lamb / Beef Ribs in Red Wine @ ₹1,250<br>
+                        Lamb Ribs in Spiced Silky Mascarpone @ ₹950<br>
+                        Premium Factor/s: Wine. Mascarpone</div>
+                        <div class="beverage-description"> cooked tenderly, either cooked in Red Wine, or Baked with Spiced-Silky-
+                            Mascarpone</div>
+                    </div>
+                    <div class="beverage-item">Mediterranean Spiced bites</div>
+                    <div class="beverage-price">• Veg @ ₹600<br>
+                        • Chicken @ ₹700<br>
+                        • Lamb @ ₹900<br>
+                        Premium Factor/s: Tsumak & Olive Oil</div>
+                    <div class="beverage-description">Marinated in exotic spices: Tsumak, Nutmeg,
+                        Cinnamon, Olive Oil and Bell Peppers and
+                        Lemon – cooked in oven or on pan to tender-
+                        bites packed with flavor</div>
                 </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/scallops.jpg" alt="Pan-Seared Scallops">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Pan-Seared Scallops</h3>
-                            <span class="menu-item-price">₹950</span>
+                <div class="menu-images">
+                    <div class="image-gallery">
+                        <h3>Appetizer Gallery</h3>
+                        <div class="image-container">
+                            <img src="images/Pics Picked/appetizer.JPG" alt="Appetizer" class="menu-image active">
+                            <img src="images/Pics Picked/croquets.jpg" alt="Croquets" class="menu-image">
+                            <img src="images/Pics Picked/appetizers5.jpg" alt="Appetizers" class="menu-image">
+                            <img src="images/Pics Picked/appetizers567.jpg" alt="Appetizers Selection" class="menu-image">
                         </div>
-                        <p class="menu-item-description">Delicate scallops seared to perfection, served with cauliflower purée, crispy pancetta, and a brown butter emulsion.</p>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/beetroot-carpaccio.jpg" alt="Beetroot Carpaccio">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Beetroot Carpaccio</h3>
-                            <span class="menu-item-price">₹750</span>
-                        </div>
-                        <p class="menu-item-description">Thinly sliced heirloom beetroots marinated in aged balsamic vinegar, topped with goat cheese mousse, toasted walnuts, and micro greens.</p>
-                        <div class="menu-item-tags">
-                            <span class="menu-tag">Vegetarian</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/truffle-soup.jpg" alt="Truffle Velouté">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Truffle Velouté</h3>
-                            <span class="menu-item-price">₹850</span>
-                        </div>
-                        <p class="menu-item-description">Silky wild mushroom soup infused with black truffle, garnished with truffle oil and chive crème fraîche.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Avant-Garde Meat Section -->
-    <section id="meat" class="menu-section">
+    <!-- Soups Section -->
+    <section id="Soups" class="menu-section">
         <div class="container">
             <div class="section-header">
-                <h2>Avant-Garde Meat</h2>
+                <h2>Soups</h2>
                 <div class="divider"><span></span></div>
-                <p>Innovative preparations showcasing the finest quality meats</p>
+                <p>Here’s a few select Salads, featuring global & French classics and a couple of them curated at Soul</p>
             </div>
-            <div class="menu-items">
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/sous-vide-lamb.jpg" alt="Sous-vide Lamb">
+            <div class="menu-container">
+                <div class="menu-items beverage-items">
+                <div class="beverage-category">
+                    <h3>Soups Selection</h3>
+                    <p class="beverage-note">Like them or not, European dining starts with a great soup!
+                        We strongly recommend beginning your meal with our freshly prepared soups, crafted to bring warmth and depth to your dining experience. While we offer a variety of options to suit every palate, we particularly recommend our vegetarian soups, which are so rich in flavor that even hardcore non-veg lovers will be pleasantly surprised.</p>
+                    <div class="beverage-item">
+                        <div class="beverage-name">French Onion Soup</div>
+                        <div class="beverage-price">@ ₹650<br> Premiuim Factor's: Cheese | Technical Process</div>
+                        <div class="beverage-description">Onions caramelized to perfection and stock infused-with flavor baked with croutons and cheese</div>
                     </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Sous-vide Lamb</h3>
-                            <span class="menu-item-price">₹1,800</span>
-                        </div>
-                        <p class="menu-item-description">Sous-vide lamb with truffle-infused jus and roasted heirloom vegetables. The lamb is cooked for 12 hours to achieve perfect tenderness.</p>
-                        <div class="menu-item-tags">
-                            <span class="menu-tag">Signature</span>
-                            <span class="menu-tag">Chef's Favorite</span>
-                        </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Exotic Italian Truffle</div>
+                        <div class="beverage-price">@ ₹1,050<br>
+                            With Truffle Oil @ ₹1,250<br>
+                            Add Chicken @ ₹150 / Lamb @ ₹250<br>
+                            Premium Factor/s: Truffle / Truffle Oil & Cream</div>
+                        <div class="beverage-description">We take pride to offer One of the most exotic elements in culinary world, sourced around the snow-capped Pine-trees of the Italian Alps.<br>
+                            For stronger flavor, add in concentrated real & authentic Truffle Oil.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Exotic Shiitake Mushroom</div>
+                        <div class="beverage-price">@ ₹650<br>
+                            Add Chicken @ ₹175 / Lamb @ ₹325<br>
+                            Premium Factor/s: Shiitakes & Cream</div>
+                        <div class="beverage-description">We exclusively use Japanese-imported Shiitake mushrooms, as our standard mushroom of choice.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Cream of Asparagus</div>
+                        <div class="beverage-price">@ ₹800<br> Premium Factor's: Asparagus & cream</div>
+                        <div class="beverage-description">“Asparagus remains in the stomach for a comparatively long time. That's perfect for your figure and health" - Christina Esser, Nutrition expert, University of Applied Sciences for Health Management, Saarbruecken, Germany<br>
+                            Asparagus is low in calories (due to its high-water content) and at the same time rich in vitamins and minerals.<br>
+                            Those with Kidney-ailments to avoid.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Carrot & Celery</div>
+                        <div class="beverage-price">@ ₹450</div>
+                        <div class="beverage-description">Carrots are rich in beta-carotene which converts to Vitamin A protecting your vision. Also, carrots are also good for the skin as they help in slowing down the aging of skin cells. Celery contains just 10 calories in one stalk, thus making it ideal for weight loss.<br>
+                            While Classic Carrot Soup is a Swiss-original, the imagination, followed by experimentation infusing bursts of Celery has been very exciting! The combination is a very basic and common part of French flavor base called mirepoix.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Pumpkin & Parsley</div>
+                        <div class="beverage-price">@ ₹450<br>
+                            Add Parmesano @ ₹200 / Prawns @ ₹275</div>
+                        <div class="beverage-description">Pumpkin is a rich source of Vitamin A, and carotenoids which help in boosting immunity. Pumpkin is an antioxidant that not only helps in weight loss but also reduces the risk of cancer. Loaded with fiber, aids the digestion process and improves gut-health. Rich in alpha-carotene, slows the aging process and even prevents cataract formation.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Cream of Broccoli</div>
+                        <div class="beverage-price">@ ₹500</div>
+                        <div class="beverage-description">Italian immigrants first introduced Broccoli to the United States in the 1800s. The word broccoli comes from an Italian word Broccolo which means “the flowering top of a cabbage”<br>
+                            Broccoli is packed with vitamins, minerals, antioxidants, and fiber; it's good for the heart, brain, bones, immune system, and gut health.<br>
+                            Those with Thyroid-concerns to avoid.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Tomato & Thyme</div>
+                        <div class="beverage-price">@ ₹450<br> Add Chicken @ ₹150 / Prawns @ ₹275</div>
+                        <div class="beverage-description">Tomatoes have anti-inflammatory properties and are linked to general heart and brain well-being. A good source of potassium, linked with lowering elevated blood pressure, preventing cardiovascular issues.<br>
+                            Thyme contains good amounts of vitamins A, C, and B-complex, as well as minerals like calcium, potassium, iron, and magnesium.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Corn & Cilantro</div>
+                        <div class="beverage-price">@ ₹450</div>
+                        <div class="beverage-description">Sweet corn is packed with number of vitamins: B5, B6; B9 (folic acid, folate is an essential nutrient, especially important during pregnancy); Potassium (important for blood pressure control and to improve heart health).<br>
+                            Cilantro is anti-inflammatory; boosts heart and brain health; helps mitigate migraine headaches; lower blood sugar; cholesterol; helps digestion and gut health.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Gazpacho Cold Soup</div>
+                        <div class="beverage-price">@ ₹600</div>
+                        <div class="beverage-description">A cold soup / drink made of blended fresh tomatoes, bell peppers, cucumber, red onion, olive oil, with a touch of salt, pepper, garlic and cumin.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Roasted Chickpeas & Sesame - Cold or Hot Soup</div>
+                        <div class="beverage-price">@ ₹650</div>
+                        <div class="beverage-description">A rich blend of roasted Chickpeas and Sesame–served chilled or warm!</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Roasted Roots & Rosemary</div>
+                        <div class="beverage-price">@ ₹450</div>
+                        <div class="beverage-description">Rosemary-infused Beets A balanced blend of roasted Beets & Leeks!</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Alfredo Soup</div>
+                        <div class="beverage-price">Alfredo Veg or Chicken Soup @ ₹500<br>
+                            Alfredo Lamb or Shrimp Soup @ ₹650<br>
+                            Premium Factor/s: Cream</div>
+                        <div class="beverage-description">Perfect blend of broth of preferred veggies / meat, with Bechamel, cooked to right balance, with butter tossed veggies / meat of choice.</div>
                     </div>
                 </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/wagyu-beef.jpg" alt="Wagyu Beef Rossini">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Wagyu Beef Rossini</h3>
-                            <span class="menu-item-price">₹2,400</span>
+                <div class="menu-images">
+                    <div class="image-gallery">
+                        <h3>Soup Gallery</h3>
+                        <div class="image-container">
+                            <img src="images/Pics Picked/soup.jpg" alt="Soup" class="menu-image active">
+                            <img src="images/Pics Picked/soup.PNG" alt="Soup Specialty" class="menu-image">
+                            <img src="images/Pics Picked/soup798.jpg" alt="Signature Soup" class="menu-image">
+                            <img src="images/Pics Picked/soups.JPG" alt="Soup Selection" class="menu-image">
                         </div>
-                        <p class="menu-item-description">A5 Wagyu beef tenderloin topped with seared foie gras, served on a truffle-infused potato purée with Madeira sauce.</p>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/duck-breast.jpg" alt="Duck Breast à l'Orange">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Duck Breast à l'Orange</h3>
-                            <span class="menu-item-price">₹1,650</span>
-                        </div>
-                        <p class="menu-item-description">Pan-seared duck breast with a modern interpretation of the classic orange sauce, accompanied by caramelized endives and duck fat potatoes.</p>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/veal-sweetbreads.jpg" alt="Veal Sweetbreads">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Veal Sweetbreads</h3>
-                            <span class="menu-item-price">₹1,750</span>
-                        </div>
-                        <p class="menu-item-description">Crispy veal sweetbreads with Jerusalem artichoke purée, morel mushrooms, and a veal jus reduction.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pasta Creations Section -->
-    <section id="pasta" class="menu-section">
+    <!-- Mains Section -->
+    <section id="Mains" class="menu-section">
         <div class="container">
             <div class="section-header">
-                <h2>Pasta Creations</h2>
+                <h2>Mains</h2>
                 <div class="divider"><span></span></div>
-                <p>Handcrafted pasta dishes that celebrate Italian tradition with a contemporary twist</p>
+                <p>French & Global Classics + Soul Curations</p>
             </div>
-            <div class="menu-items">
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/saffron-tagliatelle.jpg" alt="Saffron Tagliatelle">
+            <div class="menu-container">
+                <div class="menu-items beverage-items">
+                <div class="beverage-category">
+                    <h3>Mains Selection</h3>
+                    <p class="beverage-note">A truly remarkable dining experience is defined by an exceptional main course!
+                        We strongly recommend exploring our carefully curated selection of mains, crafted with time-honored European techniques and bold, innovative flavors. Whether you prefer the refined elegance of classic French dishes, the hearty richness of slow-cooked specialties, or the indulgence of expertly seared meats, our menu offers something for every discerning palate. Each dish is designed to be a culinary centerpiece, delivering a perfect balance of taste, texture, and artistry.</p>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Coq Au Vin</div>
+                        <div class="beverage-price">@ ₹1350<br> Premiuim Factor's: Wine</div>
+                        <div class="beverage-description">A French Classic: Chicken in Wine, cooked with Shallots, Mushrooms</div>
                     </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Saffron Tagliatelle</h3>
-                            <span class="menu-item-price">₹1,600</span>
-                        </div>
-                        <p class="menu-item-description">Handmade saffron tagliatelle with lobster and citrus zest. The pasta is infused with premium saffron and paired with succulent lobster meat.</p>
-                        <div class="menu-item-tags">
-                            <span class="menu-tag">Signature</span>
-                        </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Poulet Saute A la Marseillaise (Escoffier’ Chilly-Peppers Chicken from Marseille)</div>
+                        <div class="beverage-price">@ ₹1,150
+                            Premium Factor/s: Wine</div>
+                        <div class="beverage-description">Escoffier’s Chilly Chicken, spiced with Chilly-Peppers, prepared with French technique, White-Wine reduction with a touch of lemon</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Provence-Style Garlic-Lemon Chicken</div>
+                        <div class="beverage-price">@ ₹1250  Premium Factor/s: Wine</div>
+                        <div class="beverage-description">Garlic-Chicken, Proventil-French-style, cooked and baked in White-Wine</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Saute Chasseur – Chicken/ Lamb [Hunter’s Chicken/ Lamb]</div>
+                        <div class="beverage-price">Chicken @ ₹1,250<br>
+                            Lamb @ ₹1,600<br>
+                            Premium Factor/s: Wine</div>
+                        <div class="beverage-description">Traditionally, prepared from hunted Poultry and wild Mushrooms; Popularized by Chef Marco Pierre White , the dish is braised meat, which is cooked with Carrots, Mushrooms, and White-Wine or Whiskey.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Navarin of Lamb</div>
+                        <div class="beverage-price">@ ₹1450</div>
+                        <div class="beverage-description">Garlic-sauted Lamb, Provencial-French-style cooked and baked with Potatoes, Carrots, Shallots and fresh Tomato puree.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Beef Willington</div>
+                        <div class="beverage-price">Loaf @ ₹2,950 (serves 2-3)</div>
+                        <div class="beverage-description">Popularized by Chef Gordon Ramsay, a delicacy featuring Beef Tenderloin, rolled into dehydrated mushroom, bacon and baked as a pastry</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Cordon Bleu</div>
+                        <div class="beverage-price">Original recipe with Bacon @ ₹1,350<br>
+                            Without Bacon @ ₹975<br>
+                            Premium Factor/s: Cheese & Bacon</div>
+                        <div class="beverage-description">Originated from Brig, Switzerland, is a Schnitzel with layers of a Roll of Breast of Chicken, Bacon and Cheese.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Tomato & Thyme</div>
+                        <div class="beverage-price">@ ₹450<br> Add Chicken @ ₹150 / Prawns @ ₹275</div>
+                        <div class="beverage-description">Tomatoes have anti-inflammatory properties and are linked to general heart and brain well-being. A good source of potassium, linked with lowering elevated blood pressure, preventing cardiovascular issues.<br>
+                            Thyme contains good amounts of vitamins A, C, and B-complex, as well as minerals like calcium, potassium, iron, and magnesium.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Filets de Porc à la Bière et au Cidre</div>
+                        <div class="beverage-price">@ ₹1,250<br> Premium Factor/s: Wine</div>
+                        <div class="beverage-description">A French Classic: Filet of Pork in Cream of Apples & Cider</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Chicken Cacciatore</div>
+                        <div class="beverage-price">@ ₹1,250<br> Premium Factor/s: Wine</div>
+                        <div class="beverage-description">An Italian Classic: Chicken in Bell Peppers, Wine, Tomatoes, Carrots & Mushrooms</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Peking Duck</div>
+                        <div class="beverage-price">@ ₹1,900<br> Whole @ ₹7,500</div>
+                        <div class="beverage-description">Slow Roasted with Exotic sauces</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Fresh Sea Fish</div>
+                        <div class="beverage-price">Exotic Blue Cod @ ₹2,000<br>
+                            Sea Bass @ ₹1,400<br>
+                            Red Snapper @ ₹1,400<br>
+                            Australian Spade @ ₹1,800<br>
+                            Leather Skin @ ₹1,500</div>
+                        <div class="beverage-description">Choice of sauces Hollandaise Butter Herbed Butter Garlic Herbed Cayenne Pepper Black Peppers</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Shepherd’s Pie / Cottage Pie</div>
+                        <div class="beverage-price">@ ₹950</div>
+                        <div class="beverage-description">An Anglo-Irish Classic: Minced Lamb/Beef, cooked with savory Tomatoes, Carrots & Celery</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Beef Bourguignon</div>
+                        <div class="beverage-price">@ ₹1,750</div>
+                        <div class="beverage-description">A traditional French favorite: Beef rested in wine for about 24 hours, slow cooked / baked for 4 hours in wine, stew of Tomatoes, Carrots, Celery with Mushrooms & Shallots</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Blanquette De Veau</div>
+                        <div class="beverage-price">@ ₹1,450</div>
+                        <div class="beverage-description">Another traditional French favorite: Blanquette de veau à l'ancienne is a traditional French recipe, based on veal cooked in a stock with Carrots, Leeks, Onions and Bouquet garni, with Cream, Butter and Button Mushrooms.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Yemista: For the love of Bell Peppers</div>
+                        <div class="beverage-price">Choice of topping: Rice / Mashed Potatoes<br>
+                            Veg @ ₹700<br>
+                            Chicken / Beef / Pork @ ₹750<br>
+                            Lamb @ ₹950 |Bacon & Prawns @ ₹1250</div>
+                        <div class="beverage-description">Traditional Greek Preparation, with choice of veg/ meats cooked, smoked / baked with bell peppers.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Paramentier</div>
+                        <div class="beverage-price">Veg @ ₹1,050<br>
+                            Chicken / Beef @ ₹1,350<br>
+                            Tuna / Bacon / Lamb / Prawns / Fish @ ₹1,550<br>
+                            Premium Factor/s: Capers & Feta</div>
+                        <div class="beverage-description">Meaning “garnished with potatoes” - a French classic with layers of Bell Peppers, Capers, choice of veg/ meats, topped with mashed Potatoes and Feta; a non-creamy/cheesy option</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Zucchini Boat & Stuffed Potatoes</div>
+                        <div class="beverage-price">Veg @ ₹700
+                            Chicken / Beef / Pork @ ₹850
+                            Lamb @ ₹1,050 |Bacon & Prawns @ ₹1250</div>
+                        <div class="beverage-description">Baked / Smoked Zucchinis & Potatoes with choice of stuffing: Tangy Mix--Veg / Cream of Spinach & Corn / Chickpeas / Mushrooms / Tangy or Creamy Meat</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Risotto</div>
+                        <div class="beverage-price">Veg @ ₹725<br>
+                            Mushroom / Chicken / Beef / Pork @ ₹825<br>
+                            Lamb @ 900 |Bacon & Prawns @ ₹1200<br>
+                            Exotic Truffles @ ₹2750<br>
+                            With White Wine: + ₹250 | Saffron @ ₹250</div>
+                        <div class="beverage-description">Italian rice, slow cooked by adding a spoon of water at a time, constantly stirred to cook to perfection, with Parmesano</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Pasta</div>
+                        <div class="beverage-price">Veg @ ₹775<br>
+                            Chicken / Beef / Pork @ ₹875<br>
+                            Lamb @ ₹975 | Bacon & Prawns @ ₹1200</div>
+                        <div class="beverage-description">Aglio e Olio [Garlic & Olives], Carbonara [Peppers, Bacon, Egg], Marinara [Rich Tomato], Alfredo [Bechamel], Pesto [Basil]</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Gratin</div>
+                        <div class="beverage-price">Potatoes / Cauliflower / Mix Veg @ ₹650<br>
+                            Broccoli / Zucchini @ ₹750<br>
+                            Chicken / Beef / Pork @ ₹775<br>
+                            Lamb @ 950 | Bacon & Prawns @ ₹1250<br>
+                            Premium Factor/s: Cheese</div>
+                        <div class="beverage-description">Traditional French Preparation, with choice of veg/ meats: boiled, sautéed with cream, baked with Cheese</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Piccata</div>
+                        <div class="beverage-price">Potatoes / Cauliflower / Mix Veg @ ₹650<br>
+                            Broccoli / Zucchini @ ₹750<br>
+                            Chicken / Beef / Pork @ ₹775<br>
+                            Lamb @ 950 | Bacon & Prawns @ ₹1250<br>
+                            Premium Factor/s: Cream & Capers</div>
+                        <div class="beverage-description">Traditional French Preparation, with choice of veg/ meats: boiled, sautéed with cream, baked with Cheese</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Merlot</div>
+                        <div class="beverage-price">Veg @ ₹650<br>
+                            Chicken / Beef @ ₹775<br>
+                            Lamb @ ₹950 | Bacon & Prawns @ ₹1250<br>
+                            Premium Factor/s: Cream & Olives</div>
+                        <div class="beverage-description">Choice of veg/ meats cooked, in cream of Mushrooms (choice: black / green / blend).</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Olivia</div>
+                        <div class="beverage-price">Veg @ ₹650<br>
+                            Chicken / Beef @ ₹775<br>
+                            Lamb @ ₹950 | Prawns @ ₹1250<br>
+                            Premium Factor/s: Cream & Olives</div>
+                        <div class="beverage-description">Choice of veg/ meats cooked, in cream of Mushrooms (choice: black / green / blend).</div>
                     </div>
                 </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/truffle-risotto.jpg" alt="Black Truffle Risotto">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Black Truffle Risotto</h3>
-                            <span class="menu-item-price">₹1,450</span>
+                <div class="menu-images">
+                    <div class="image-gallery">
+                        <h3>Mains Gallery</h3>
+                        <div class="image-container">
+                            <img src="images/Pics Picked/maincoutrse.jpg" alt="Main Course" class="menu-image active">
+                            <img src="images/Pics Picked/Mains .JPG" alt="Signature Mains" class="menu-image">
+                            <img src="images/Pics Picked/mains.jpg" alt="Main Dishes" class="menu-image">
+                            <img src="images/Pics Picked/Exotic Collection:Mains .JPG" alt="Exotic Mains Collection" class="menu-image">
                         </div>
-                        <p class="menu-item-description">Carnaroli rice cooked to creamy perfection with black truffle, aged Parmesan, and a touch of white wine.</p>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/ravioli.jpg" alt="Wild Mushroom Ravioli">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Wild Mushroom Ravioli</h3>
-                            <span class="menu-item-price">₹1,350</span>
-                        </div>
-                        <p class="menu-item-description">Delicate pasta pillows filled with wild mushroom duxelles, served with a sage brown butter sauce and shaved Pecorino Romano.</p>
-                        <div class="menu-item-tags">
-                            <span class="menu-tag">Vegetarian</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/gnocchi.jpg" alt="Truffle Gnocchi">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Truffle Gnocchi</h3>
-                            <span class="menu-item-price">₹1,250</span>
-                        </div>
-                        <p class="menu-item-description">Pillowy potato gnocchi tossed in a creamy truffle sauce with crispy pancetta, peas, and Parmesan crisps.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Fish Specialties Section -->
-    <section id="fish" class="menu-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Fish Specialties</h2>
-                <div class="divider"><span></span></div>
-                <p>Exquisite seafood dishes showcasing the freshest catches</p>
-            </div>
-            <div class="menu-items">
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/sea-bass.jpg" alt="Pan-seared Sea Bass">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Pan-seared Sea Bass</h3>
-                            <span class="menu-item-price">₹1,700</span>
-                        </div>
-                        <p class="menu-item-description">Pan-seared sea bass with a fennel and orange salad, served with saffron-infused potato purée and a champagne beurre blanc.</p>
-                        <div class="menu-item-tags">
-                            <span class="menu-tag">Signature</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/butter-poached-lobster.jpg" alt="Butter-poached Lobster">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Butter-poached Lobster</h3>
-                            <span class="menu-item-price">₹2,200</span>
-                        </div>
-                        <p class="menu-item-description">Butter-poached lobster tail with vanilla-scented parsnip purée, glazed baby vegetables, and a lobster bisque reduction.</p>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/scallops-main.jpg" alt="Seared Scallops">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Seared Scallops</h3>
-                            <span class="menu-item-price">₹1,550</span>
-                        </div>
-                        <p class="menu-item-description">Perfectly seared scallops with pea purée, crispy pancetta, pea shoots, and a lemon beurre blanc.</p>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/turbot.jpg" alt="Roasted Turbot">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Roasted Turbot</h3>
-                            <span class="menu-item-price">₹1,850</span>
-                        </div>
-                        <p class="menu-item-description">Roasted turbot fillet with artichoke barigoule, confit cherry tomatoes, and a saffron-infused fish velouté.</p>
                     </div>
                 </div>
             </div>
@@ -344,121 +505,161 @@
                 <div class="divider"><span></span></div>
                 <p>Indulgent sweet creations to conclude your dining experience</p>
             </div>
-            <div class="menu-items">
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/tiramisu.jpg" alt="Deconstructed Tiramisu">
+            <div class="menu-container">
+                <div class="menu-items beverage-items">
+                <div class="beverage-category">
+                    <h3>Desserts Selection</h3>
+                    <p class="beverage-note">No dining experience is truly complete without a delightful dessert!
+                        We strongly recommend ending your meal on a sweet note with our exquisite dessert selection, crafted to offer a harmonious balance of indulgence and refinement. From timeless French classics to modern gourmet creations, each dessert is designed to satisfy the senses with rich textures, delicate flavors, and the finest ingredients. Whether you crave silky creams, decadent chocolates, or fruit-infused delights, our desserts promise a perfectly sweet finale to your meal.</p>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Crème Brûlée</div>
+                        <div class="beverage-price">@ ₹400</div>
+                        <div class="beverage-description">Classic French Dessert, of Cream baked to perfection, with crackling caramel surface served with reduction of fresh fruits such as raspberry, blueberries, strawberries</div>
                     </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Deconstructed Tiramisu</h3>
-                            <span class="menu-item-price">₹750</span>
-                        </div>
-                        <p class="menu-item-description">Deconstructed tiramisu with espresso gelée and mascarpone mousse, accompanied by coffee soil and chocolate tuiles.</p>
-                        <div class="menu-item-tags">
-                            <span class="menu-tag">Signature</span>
-                        </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Apple Pie</div>
+                        <div class="beverage-price">@ ₹750</div>
+                        <div class="beverage-description">Absolute delicacy, baked with Almond flour and Apples.<br> Believed to have originated in England, but by culinary influences from France, the Netherlands, and the Ottoman Empire as early as 1390</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Panna Cotta</div>
+                        <div class="beverage-price">@ ₹550</div>
+                        <div class="beverage-description">Classic Italian Dessert, of Cream cooked perfectly, served with a reduction of fresh fruits such as raspberry, blueberries, strawberries</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Iles Flottantes</div>
+                        <div class="beverage-price">@ ₹500</div>
+                        <div class="beverage-description">A fluffy cloud of baked meringue is set adrift
+                            in a puddle of creme anglaise, or light
+                            custard. Over the top are drizzled lines of
+                            burned caramel.<br>
+                            The first recipe was recorded by the father of
+                            classic French cuisine, François-Pierre de la
+                            Varenne. His 1651 cookbook, Les Cuisinier
+                            François, contains a recipe for oeufs à la
+                            neige (“eggs in snow”)</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Chocolate Melt Down</div>
+                        <div class="beverage-price">@ ₹650</div>
+                        <div class="beverage-description">A total chocolate experience, with a dome / sphere of Chocolate melting to a discovery of Chocolate curations at a pour of hot chocolate/ caramel/ berries</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">White Chocolate w/ Berries</div>
+                        <div class="beverage-price">@ ₹650</div>
+                        <div class="beverage-description">Warm and rich white Chocolate with a mix of fresh and reduced Berries</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Classic Vanilla-Cheese Cake</div>
+                        <div class="beverage-price">@ ₹500</div>
+                        <div class="beverage-description">Rich, Real Vanilla…</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Berry-Burst Cheese-Cake</div>
+                        <div class="beverage-price">@ ₹650</div>
+                        <div class="beverage-description">Rich Berries…Real Cheese-Cake Experience</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Coffee-Cake</div>
+                        <div class="beverage-price">@ ₹600</div>
+                        <div class="beverage-description">A treat for Coffee lovers, an experience to discover in a bowl of Coffee-curations</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Poached Pears with Mascarpone</div>
+                        <div class="beverage-price">@ ₹950</div>
+                        <div class="beverage-description">Wine-Poached Pears, served with Mascarpone, a dessert to experience</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Lemon Tart</div>
+                        <div class="beverage-price">@ ₹400</div>
+                        <div class="beverage-description">Soul satisfying little treat of Lemon Tart</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Medley of Ice Creams</div>
+                        <div class="beverage-price">@ ₹400</div>
+                        <div class="beverage-description">Experience … Pure, Top Quality Ice Creams from Soul</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Souffle</div>
+                        <div class="beverage-price">Cheese / Chocolate Souffle @ ₹800<br>
+                            Berries Souffle @ ₹900<br>
+                            Escoffier’s Whiskey Souffle @ ₹1,400</div>
+                        <div class="beverage-description">Meaning ‘Blow’ in French, is airy-baked delicacy that involves technical prowess</div>
                     </div>
                 </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/chocolate-souffle.jpg" alt="Chocolate Soufflé">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Chocolate Soufflé</h3>
-                            <span class="menu-item-price">₹800</span>
+                <div class="menu-images">
+                    <div class="image-gallery">
+                        <h3>Desserts Gallery</h3>
+                        <div class="image-container">
+                            <img src="images/Pics Picked/deserts:chocolatemeltdown.jpg" alt="Chocolate Meltdown" class="menu-image active">
+                            <img src="images/Pics Picked/dessert.JPG" alt="Dessert" class="menu-image">
+                            <img src="images/Pics Picked/desserts:medley of ice creams.jpg" alt="Medley of Ice Creams" class="menu-image">
+                            <img src="images/Pics Picked/desserts.JPG" alt="Dessert Selection" class="menu-image">
                         </div>
-                        <p class="menu-item-description">Warm chocolate soufflé with a molten center, served with vanilla bean ice cream and salted caramel sauce. Please allow 20 minutes for preparation.</p>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/panna-cotta.jpg" alt="Vanilla Bean Panna Cotta">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Vanilla Bean Panna Cotta</h3>
-                            <span class="menu-item-price">₹650</span>
-                        </div>
-                        <p class="menu-item-description">Silky vanilla bean panna cotta with berry compote, fresh seasonal fruits, and a delicate almond tuile.</p>
-                    </div>
-                </div>
-                <div class="menu-item-card">
-                    <div class="menu-item-image">
-                        <img src="images/creme-brulee.jpg" alt="Lavender Crème Brûlée">
-                    </div>
-                    <div class="menu-item-content">
-                        <div class="menu-item-header">
-                            <h3>Lavender Crème Brûlée</h3>
-                            <span class="menu-item-price">₹700</span>
-                        </div>
-                        <p class="menu-item-description">Classic crème brûlée infused with lavender, topped with a perfectly caramelized sugar crust and served with shortbread cookies.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Beverages Section -->
-    <section id="beverages" class="menu-section">
+    <!-- Salads Section -->
+    <section id="Salads" class="menu-section">
         <div class="container">
             <div class="section-header">
-                <h2>Beverages</h2>
+                <h2>Salads</h2>
                 <div class="divider"><span></span></div>
-                <p>Carefully selected drinks to complement your meal</p>
+                <p>Here’s a few select Salads, featuring global & French classics and a couple of them curated at Soul</p>
             </div>
-            <div class="menu-items beverage-items">
+            <div class="menu-container">
+                <div class="menu-items beverage-items">
                 <div class="beverage-category">
-                    <h3>Wine Selection</h3>
-                    <p class="beverage-note">Our sommelier has curated an extensive wine list featuring exceptional vintages from renowned vineyards across Europe. Please ask your server for our complete wine list and pairing recommendations.</p>
+                    <h3>Salads Selection</h3>
+                    <p class="beverage-note">Our salads are thoughtfully curated to offer a refreshing and vibrant start to your meal, combining fresh, seasonal ingredients with delicate dressings and bold flavors. Each salad is crafted to balance crisp textures and rich nutrients, delivering a light yet satisfying experience. From classic European favorites to contemporary creations, our selection caters to every palate, whether you prefer zesty citrus notes, creamy cheese pairings, or wholesome Mediterranean blends.</p>
                     <div class="beverage-item">
-                        <div class="beverage-name">House Red Wine</div>
-                        <div class="beverage-price">₹800 / glass</div>
+                        <div class="beverage-name">Fresh Mediterranean Salad</div>
+                        <div class="beverage-price">@ ₹450<br> Add Feta @₹200</div>
+                        <div class="beverage-description">A very simple and most common salad across
+                            the Mediterranean region, featuring fresh
+                            tomatoes, cucumbers, bell peppers, olives,
+                            pomes & a pinch of herbs with citrus squeeze.</div>
                     </div>
                     <div class="beverage-item">
-                        <div class="beverage-name">House White Wine</div>
-                        <div class="beverage-price">₹800 / glass</div>
+                        <div class="beverage-name">Fresh (Yellow Fin) Tuna Salad</div>
+                        <div class="beverage-price">@ ₹550<br> Premium Factor's: Tuna</div>
+                        <div class="beverage-description">Sub’ popular salad – rich in fresh Tuna, steamed &
+                            shredded, served together with fresh tomatoes,
+                            cucumbers, onions, iceberg lettuce, and more.</div>
                     </div>
                     <div class="beverage-item">
-                        <div class="beverage-name">Premium Champagne</div>
-                        <div class="beverage-price">₹1,800 / glass</div>
+                        <div class="beverage-name">Salade Nicoise</div>
+                        <div class="beverage-price">@ ₹675<br> Premium Factor's: Tuna & Olives</div>
+                        <div class="beverage-description">A traditional French classic featuring Anchovies, Tuna, fresh Coral lettuce, Olives, Beans, boiled Eggs, Tomatoes & more.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Salade de Printemps</div>
+                        <div class="beverage-price">@ ₹850<br> Premium Factor's: Feta</div>
+                        <div class="beverage-description">A traditional French classic featuring a perfect blend of Anchovies and Olives, Tomatoes, Cucumbers with layers of Feta.</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Poached Apples/Pears with Goat Cheese</div>
+                        <div class="beverage-price">@ ₹900<br> Premium Factor's: Wine & Goat Cheese</div>
+                        <div class="beverage-description">Apples & Pears poached in wine / black grape and citrus juices, served with fresh greens, goat cheese and wine reduction</div>
+                    </div>
+                    <div class="beverage-item">
+                        <div class="beverage-name">Burrata Salad</div>
+                        <div class="beverage-price">@ ₹900<br> Premium Factor's: Burrata</div>
+                        <div class="beverage-description">Fresh salad with burst of Burrata cheese, Greens, Tomatoes & more.</div>
                     </div>
                 </div>
-                <div class="beverage-category">
-                    <h3>Signature Cocktails</h3>
-                    <div class="beverage-item">
-                        <div class="beverage-name">Golden Soul</div>
-                        <div class="beverage-price">₹950</div>
-                        <div class="beverage-description">Premium vodka, passion fruit, vanilla, and a hint of gold leaf</div>
-                    </div>
-                    <div class="beverage-item">
-                        <div class="beverage-name">Mediterranean Breeze</div>
-                        <div class="beverage-price">₹850</div>
-                        <div class="beverage-description">Gin, rosemary, cucumber, and Mediterranean tonic</div>
-                    </div>
-                    <div class="beverage-item">
-                        <div class="beverage-name">Smoky Affair</div>
-                        <div class="beverage-price">₹950</div>
-                        <div class="beverage-description">Smoked whiskey, orange bitters, and maple syrup</div>
-                    </div>
-                </div>
-                <div class="beverage-category">
-                    <h3>Non-Alcoholic Options</h3>
-                    <div class="beverage-item">
-                        <div class="beverage-name">Cucumber Mint Refresher</div>
-                        <div class="beverage-price">₹450</div>
-                        <div class="beverage-description">Fresh cucumber, mint, lime, and sparkling water</div>
-                    </div>
-                    <div class="beverage-item">
-                        <div class="beverage-name">Berry Bliss</div>
-                        <div class="beverage-price">₹500</div>
-                        <div class="beverage-description">Mixed berries, basil, and elderflower cordial</div>
-                    </div>
-                    <div class="beverage-item">
-                        <div class="beverage-name">Artisanal Coffee Selection</div>
-                        <div class="beverage-price">₹350</div>
-                        <div class="beverage-description">Espresso, Cappuccino, Latte, or French Press</div>
+                <div class="menu-images">
+                    <div class="image-gallery">
+                        <h3>Seafood Gallery</h3>
+                        <div class="image-container">
+                            <img src="images/Pics Picked/sea food.jpg" alt="Sea Food" class="menu-image active">
+                            <img src="images/Pics Picked/sea food1.PNG" alt="Sea Food Selection" class="menu-image">
+                            <img src="images/Pics Picked/seafood.JPG" alt="Seafood Dish" class="menu-image">
+                            <img src="images/Pics Picked/seafoodcollection.jpg" alt="Seafood Collection" class="menu-image">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -493,11 +694,9 @@
     </section>
 
     <!-- Reservation CTA Section -->
-    <section class="reservation-cta" style="background-image: url('images/IMG_0050.jpg');">
+    <section class="reservation-cta" style="background-image: url('images/reservenow.jpeg');">
         <div class="container">
             <div class="cta-content">
-                <h2>Reserve Your Culinary Journey</h2>
-                <p>Indulge in an unforgettable dining experience at SOUL</p>
                 <a href="reservations.html" class="btn btn-primary">Book Your Table</a>
             </div>
         </div>
@@ -508,8 +707,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h2>SOUL</h2>
-                    <p>A French Fine Dine</p>
+                    <a href="index.html"><img src="images/logo.png" alt="SOUL Logo" class="footer-logo-img"></a>
                 </div>
                 <div class="footer-links">
                     <h3>Explore</h3>
@@ -579,5 +777,38 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+        // Slideshow functionality for menu images
+        document.addEventListener('DOMContentLoaded', function() {
+            const slideshows = document.querySelectorAll('.image-container');
+            
+            slideshows.forEach(slideshow => {
+                const images = slideshow.querySelectorAll('.menu-image');
+                let currentIndex = 0;
+                
+                // Find the initial active image
+                images.forEach((img, index) => {
+                    if (img.classList.contains('active')) {
+                        currentIndex = index;
+                    }
+                });
+                
+                // Function to show the next image
+                function showNextImage() {
+                    // Hide current image
+                    images[currentIndex].classList.remove('active');
+                    
+                    // Move to next image or back to first
+                    currentIndex = (currentIndex + 1) % images.length;
+                    
+                    // Show new image
+                    images[currentIndex].classList.add('active');
+                }
+                
+                // Start slideshow
+                setInterval(showNextImage, 3000); // Change image every 3 seconds
+            });
+        });
+    </script>
 </body>
 </html>
