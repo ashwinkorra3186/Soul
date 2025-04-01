@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the visual journey of Soul Fine Dine, Hyderabad's premier European fine dining restaurant. View our elegant ambiance, exquisite dishes, and special events.">
+    <title>Gallery | Soul Fine Dine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="SOUL Logo" class="logo-img"></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="private-dining.html">Private Dining</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner gallery-banner">
+        <video autoplay muted loop id="menu-background-video">
+            <source src="images/background09.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="banner-content">
+            <h2>Our Gallery</h2>
+            <div class="divider"><span></span></div>
+            <p>A visual journey through our culinary artistry</p>
+        </div>
+    </section>
+
+<!-- Gallery Introduction -->
+<section class="gallery-intro">
+    <div class="container">
+        <div class="gallery-intro-content">
+            <h2>Winner of the Best Luxurious Dining Award</h2>
+            <div class="divider"><span></span></div>
+            <p>Welcome to the award-winning visual showcase of Soul Fine Dine. Recognized for our luxurious dining experience, our gallery offers a glimpse into the elegant ambiance, exquisite dishes, and memorable events that define our restaurant. Each image tells a story of culinary passion, artistic presentation, and the unique dining experience we strive to create.</p>
+            <p>From the meticulous plating of our signature dishes to the sophisticated interior design of our dining spaces, these images capture the essence of Soul Fine Dine's commitment to excellence and luxury in every detail.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ambiance">Ambiance</button>
+                <button class="filter-btn" data-filter="dishes">Dishes</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="behind-scenes">Behind the Scenes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Ambiance Images -->
+                <div class="gallery-item ambiance">
+                    <div class="gallery-image">
+                        <img src="images/restaurant-interior.jpg" alt="Elegant dining area with sophisticated decor">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Main Dining Area</h3>
+                                <p>Our elegant main dining space featuring sophisticated decor and ambient lighting</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item ambiance">
+                    <div class="gallery-image">
+                        <img src="images/private-dining.jpg" alt="Private dining room with luxurious setting">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Private Dining Room</h3>
+                                <p>Exclusive space for intimate gatherings and special celebrations</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item ambiance">
+                    <div class="gallery-image">
+                        <img src="images/bar-area.jpg" alt="Sophisticated bar with premium spirits">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Bar & Lounge</h3>
+                                <p>Our sophisticated bar featuring premium spirits and signature cocktails</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item ambiance">
+                    <div class="gallery-image">
+                        <img src="images/outdoor-seating.jpg" alt="Elegant outdoor seating area">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Terrace Dining</h3>
+                                <p>Our elegant outdoor seating area offering a serene dining experience</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dishes Images -->
+                <div class="gallery-item dishes">
+                    <div class="gallery-image">
+                        <img src="images/meat-dish.jpg" alt="Sous-vide lamb with truffle-infused jus">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Sous-vide Lamb</h3>
+                                <p>Our signature lamb dish with truffle-infused jus and roasted heirloom vegetables</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item dishes">
+                    <div class="gallery-image">
+                        <img src="images/pasta-dish.jpg" alt="Handmade saffron tagliatelle with lobster">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Saffron Tagliatelle</h3>
+                                <p>Handmade saffron pasta with lobster and citrus zest</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item dishes">
+                    <div class="gallery-image">
+                        <img src="images/fish-dish.jpg" alt="Pan-seared sea bass with fennel">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Pan-seared Sea Bass</h3>
+                                <p>Delicate sea bass with fennel and orange salad</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item dishes">
+                    <div class="gallery-image">
+                        <img src="images/tiramisu.jpg" alt="Deconstructed tiramisu dessert">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Deconstructed Tiramisu</h3>
+                                <p>Our innovative take on the classic Italian dessert</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events Images -->
+                <div class="gallery-item events">
+                    <div class="gallery-image">
+                        <img src="images/wine-tasting.jpg" alt="Wine tasting event">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Wine Tasting Evening</h3>
+                                <p>Our monthly wine tasting event featuring premium European vintages</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item events">
+                    <div class="gallery-image">
+                        <img src="images/chef-table.jpg" alt="Chef's table experience">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Chef's Table Experience</h3>
+                                <p>An exclusive dining experience with our Executive Chef</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item events">
+                    <div class="gallery-image">
+                        <img src="images/private-event.jpg" alt="Private celebration event">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Private Celebration</h3>
+                                <p>A beautifully arranged private event in our exclusive dining room</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Behind the Scenes Images -->
+                <div class="gallery-item behind-scenes">
+                    <div class="gallery-image">
+                        <img src="images/chef-cooking.jpg" alt="Chef preparing a dish">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Culinary Artistry</h3>
+                                <p>Our chefs meticulously preparing signature dishes</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item behind-scenes">
+                    <div class="gallery-image">
+                        <img src="images/kitchen-team.jpg" alt="Kitchen team at work">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Kitchen Team</h3>
+                                <p>Our talented culinary team working in perfect harmony</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item behind-scenes">
+                    <div class="gallery-image">
+                        <img src="images/plating.jpg" alt="Chef plating a dish with precision">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>The Art of Plating</h3>
+                                <p>Meticulous attention to detail in the presentation of each dish</p>
+                            </div>
+                            <div class="gallery-icon">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-image" src="" alt="">
+            <div class="lightbox-caption"></div>
+            <a class="lightbox-prev">&#10094;</a>
+            <a class="lightbox-next">&#10095;</a>
+        </div>
+    </div>
+
+    <!-- Instagram Section -->
+    <section class="instagram-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Follow Us on Instagram</h2>
+                <div class="divider"><span></span></div>
+                <p>Stay updated with our latest culinary creations and events</p>
+            </div>
+            <div class="instagram-link">
+                <a href="#" class="btn btn-secondary"><i class="fab fa-instagram"></i> @soulfinedine</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation CTA Section -->
+    <section class="reservation-cta">
+        <div class="container">
+            <div class="cta-content">
+                <a href="reservations.html" class="btn btn-primary">Reserve Your Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/logo.png" alt="SOUL Logo" class="footer-logo-img"></a>
+                </div>
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h3>Hours</h3>
+                    <p>Lunch: 12:00 PM - 3:00 PM</p>
+                    <p>Dinner: 7:00 PM - 11:00 PM</p>
+                    <p>Monday - Sunday</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Gourmet Avenue, Jubilee Hills, Hyderabad</p>
+                    <p><i class="fas fa-phone"></i> +91 40 1234 5678</p>
+                    <p><i class="fas fa-envelope"></i> info@soulfinedine.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="TripAdvisor"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Soul Fine Dine. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <button class="chat-toggle">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>Live Chat</h3>
+                <button class="chat-close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chat-body">
+                <div class="chat-message system">
+                    <p>Welcome to Soul Fine Dine. How may we assist you today?</p>
+                </div>
+                <!-- Chat messages will appear here -->
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
